@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Finger+Paint&family=Open+Sans:wght@300&family=Sedgwick+Ave+Display&family=Space+Grotesk&display=swap');
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Finger Paint', cursive;
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+h3{
+    font-family: 'Delius', cursive;
+    font-size: 25px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.jjk-banner{
+    background-color: #760979;
+    height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.jjk-banner h4 a,
+.jjk-banner h4{
+    color: white;
+    margin: 0;
+}
+
+.jjk-banner h1{
+    -webkit-text-stroke: 1px black;
+    color: white;
+    margin: 14px 0 20px;
+}
+
+.jjk-banner h3{
+    color: white;
+    margin: 0 0 35px;
+}
+
+a.cta,
+button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: #760979;
+    display: inline-block;
+    box-shadow: 0 0 0  10px rgba(0, 127, 255, .15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.cta.alt,
+button.cta.alt{
+    background-color: #FFD400;
+    color: #111;
+    box-shadow: 0 0 0  10px rgba(0, 127, 255, .15);
+}
